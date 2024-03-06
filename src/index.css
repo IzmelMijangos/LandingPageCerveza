@@ -1,0 +1,69 @@
+/* Reset básico y estilos del body para dar un lienzo limpio */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos globales y variables */
+:root {
+  --primary-color: #70483c; /* Color principal */
+  --secondary-color: #8c6239; /* Color secundario */
+  --background-color: #f3f1e7; /* Color de fondo */
+  --text-color: #333; /* Color de texto */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; /* Fuente más moderna y limpia */
+  background: #f3f1e7; /* Un fondo claro pero cálido */
+  color: #333; /* Color de texto oscuro para contraste */
+  line-height: 1.6; /* Espaciado de línea agradable para la lectura */
+}
+
+/* Estilos globales para encabezados: 
+   Usando una fuente que simula ser escrita a mano para títulos, 
+   lo que puede ayudar a reforzar el tema artesanal */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* Fuente con serifa para títulos */
+  color: #70483c; /* Color de texto oscuro y cálido */
+  margin-bottom: 1rem; /* Espacio debajo de los títulos */
+}
+
+/* Estilos para botones, enfocándose en el aspecto artesanal y terrenal */
+button, .btn {
+  background: #8c6239; /* Un marrón que recuerda a barriles de cerveza */
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.3rem; /* Bordes redondeados, pero no demasiado */
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover, .btn:hover {
+  background: #a67c52; /* Un tono ligeramente más claro para el hover */
+}
+
+/* Estilos para enlaces, manteniéndolos sutiles y naturales */
+a {
+  color: #70483c; /* El mismo color que los títulos para consistencia */
+  text-decoration: none; /* No subrayados */
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #8c6239; /* Un color más claro en hover para enlaces */
+}
+
+/* Estilos específicos para el código si es que lo necesitas, 
+   aunque es menos común en una landing page de cerveza artesanal */
+code {
+  background: #ededed; /* Fondo claro para contraste */
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}

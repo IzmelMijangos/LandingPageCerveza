@@ -1,0 +1,21 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #333; /* Un color oscuro de fondo */
+    color: white;
+  }
+  
+  .NavBar-links {
+    list-style: none;
+  }
+  
+  .NavBar-links li {
+    display: inline;
+    margin-right: 2rem;
+  }
+  
+  .NavBar-auth .btn {
+    margin-left: 1rem;
+  }

@@ -1,0 +1,31 @@
+.HeroSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    background-image: url('./Cerveza.jpg'); /* Imagen de fondo del encabezado */
+    background-size: cover;
+    color: white;
+  }
+  
+  .HeroSection-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .HeroSection-content .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .HeroSection-content .btn-primary {
+    padding: 1rem 2rem;
+    background-color: #f0ad4e; /* Un color de botón que destaque */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .HeroSection-image img {
+    max-width: 100%;
+    height: auto;
+  }
