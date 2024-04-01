@@ -1,10 +1,20 @@
-.Header {
-  padding: 4rem 0;
-  background-image: url('./1_5c.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: steelblue; /* Sustituye con el color de fondo de tu elección */
+  padding: 10px 20px;
+  height: 150px;
+  position: fixed; /* Hace que el encabezado sea fijo */
+  top: 0; /* Alinea el encabezado en la parte superior */
+  left: 0; /* Alinea el encabezado a la izquierda */
+  width: 100%; /* Asegura que el encabezado se extienda a lo ancho de la pantalla */
+  z-index: 1000; /* Asegura que el encabezado esté sobre otros elementos */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Opcional: Añade sombra para un efecto elevado */
+}
+
+.navbar-container {
+  flex: 1; /* Asegura que la navegación pueda crecer */
 }
 
 .Header h1 {
@@ -15,6 +25,11 @@
 .Header p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Cambia esto por el color de fondo de tu preferencia */
+  padding: 10px 20px;
 }
 
 .Header-btn {
@@ -29,4 +44,43 @@
 .Header-btn:hover {
   background-color: transparent;
   color: white;
+}
+
+.logo-container {
+  flex: 1; /* Permite que el contenedor del logo crezca */
+  display: flex;
+  justify-content: center; /* Centra el logo */
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000; /* Cambia por el color de texto de tu elección */
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start; /* Cambia a 'center' si quieres que estén centrados */
+  gap: 20px;
+}
+
+.logo-container {
+  flex: 1; /* Permite que el contenedor del logo crezca */
+  display: flex;
+  justify-content: center; /* Centra el logo */
+}
+
+.logo {
+  height: 150px; 
+}
+
+.icons-container {
+  flex: 1; /* Permite que el contenedor de iconos crezca */
+  display: flex;
+  justify-content: flex-end; /* Alinea los iconos al final */
+  gap: 20px;
+}
+
+.icon img {
+  width: 30px; /* Ajusta según el tamaño de tus iconos */
 }

@@ -8,6 +8,13 @@ function App() {
     <div className="App">
       <Header />
       <ProductFeature />
+      <ProductFeature />
+      <ProductFeature />
+      <ProductFeature />
+      <ProductFeature />
+      <ProductFeature />
+      <ProductFeature />
+      <ProductFeature />
       <Footer />
     </div>
   );
