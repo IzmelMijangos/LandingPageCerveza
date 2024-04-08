@@ -1,0 +1,19 @@
+.banner-container {
+    position: relative;
+    height: 300px; /* Ajusta la altura como necesites */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-text {
+    color: white;
+    font-size: 3rem; /* Ajusta el tamaño del texto como necesites */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Esto ayuda a que el texto se destaque sobre la imagen */
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.3); /* Fondo semitransparente para mejorar la legibilidad */
+    border-radius: 10px;
+  }
+  

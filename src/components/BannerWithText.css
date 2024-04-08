@@ -1,0 +1,18 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* O la altura que prefieras */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centered-text {
+    color: #fff; /* O el color que prefieras */
+    font-size: 3rem; /* O el tamaño de fuente que prefieras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Para mejorar la legibilidad del texto */
+    text-align: center;
+    max-width: 80%; /* Ajusta según sea necesario para mantener el texto legible */
+  }

@@ -1,0 +1,47 @@
+.testimonials-section {
+    background: #333; /* Cambia al color de fondo que desees */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .testimonial {
+    background: #222; /* Cambia al color de fondo de las tarjetas que desees */
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px; /* Ajusta el ancho como prefieras */
+  }
+  
+  .testimonial-rating {
+    width: 100%; /* Ajusta al tamaño deseado */
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-quote {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-client {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-profile {
+    width: 50px; /* Ajusta al tamaño deseado */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+  }
+  
+  .testimonial-source {
+    font-size: smaller;
+  }
